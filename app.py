@@ -5,7 +5,7 @@ import re
 
 st.set_page_config(layout="wide", page_title="NeuroWell", page_icon="🧠")
 
-# Reducing whitespace on the top of the page
+
 st.markdown("""
 <style>
 .block-container {
@@ -16,7 +16,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Set up the session state
+# Setting up the session state....
 if 'user_info' not in st.session_state:
     st.session_state.user_info = None
 
