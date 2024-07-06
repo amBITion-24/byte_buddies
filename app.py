@@ -153,7 +153,7 @@ if st.session_state.user_info is None:
 
     col1, col2, col3 = st.columns([0.6, 1, 0.4])
     with col2:
-        st.markdown('##### Project by team - :orange[BYTEBUDDIES] - Deekshith B, Sanjana W G')
+        st.markdown('##### Project by team - :orange[BYTEBUDDIES] - Deekshith B, Sanjana W G, K M Skanda')
 
 else:
     if st.session_state.user_type == 'Nurse':
